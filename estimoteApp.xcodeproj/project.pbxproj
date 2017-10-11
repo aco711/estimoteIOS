@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					2A1BB6E91F85720F0011CEF6 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 43S93PVEYH;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -421,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43S93PVEYH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -438,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43S93PVEYH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -524,6 +527,7 @@
 				2A1BB7141F85720F0011CEF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A1BB7151F85720F0011CEF6 /* Build configuration list for PBXNativeTarget "estimoteAppTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +536,7 @@
 				2A1BB7171F85720F0011CEF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A1BB7181F85720F0011CEF6 /* Build configuration list for PBXNativeTarget "estimoteAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +545,7 @@
 				2A1BB71A1F85720F0011CEF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

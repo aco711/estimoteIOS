@@ -18,10 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ESTMonitoringV2ManagerDel
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        ESTConfig.setupAppID("App ID", andAppToken: "App Token")
+                ESTConfig.setupAppID("alexcohen711-gmail-com-s-p-kf6", andAppToken:"eb488b138d9e424ca641aa52b62ece24");
 
         self.monitoringManager = ESTMonitoringV2Manager(
-            desiredMeanTriggerDistance: 2.0, delegate: self)
+            desiredMeanTriggerDistance: 1.0, delegate: self)
+        self.monitoringManager.startMonitoring(forIdentifiers: [
+            "9852034567cbce716349160bac5fa40b",
+            "d5e3e955ecc408d84eba997cf6d4053e"])
         
         let center = UNUserNotificationCenter.current()
         center.requestAuthorization(options: [.alert, .sound]) { (granted, error) in
